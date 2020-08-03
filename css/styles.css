@@ -1,0 +1,270 @@
+* {
+   max-width: 100% 
+   }
+
+
+/*BODY*/
+
+#nav-open {
+  display: none;
+}   
+
+#nav-close {
+  display: none;
+  position: relative;
+  z-index: 1;
+}
+
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  line-height: 1.5;
+  background-image: linear-gradient(50deg,rgba(200, 200, 200, 0.9),rgba(190, 190, 190, 0.9)), url(background0.png);
+  background-position: 28% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*NAVBAR*/
+
+#navbar {
+  position: fixed; 
+  height: 100%;
+  width: 250px;
+  top: 0;
+  left: 0;
+  border: 3px solid #000;
+}
+
+#navbar header {
+  display: flex;
+  max-width: 70%;
+  width: 200px;
+  position: relative;
+  left: 33px;
+  top: 7px;
+}
+
+#navbar ul {
+  height: 100%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar ul li {
+  position: relative;
+  padding: 15px;
+  border-top: 3px solid #000;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/*DROPDOWN*/
+
+#navbar ul li a #dropbtn {
+  font-size: 1.2rem;
+  position: relative;
+  left: 5px;
+  top: 12px;
+  transform: translateY(-50%);
+  transition: transform: 0.4s;
+}
+
+#navbar ul li a:hover #dropbtn {
+  transform: translateY(-50%) rotate(-180deg);
+}
+
+#navbar ul li ul {
+display: none;
+position: relative;
+margin-top: 10px;
+}
+
+#navbar ul li ul li {
+  border: none;
+}
+
+
+#navbar ul li ul li:hover {
+  background-color: rgba(180, 180, 180, 0.6);
+  border-radius: 5px;
+}
+
+
+
+/*MAIN*/
+
+#main-doc {
+position: absolute;
+margin-left: 260px;
+padding: 20px;
+}
+
+header {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#bandana {
+  position: relative;
+  width: 600px;
+  left: 400px;
+  max-width: 100%;
+}
+
+#main-doc img {
+  width: 300px;
+  max-width: 100%;
+}
+
+#main-doc #solid-meryl {
+  width: 800px;
+  position: relative;
+  left: 50px;
+}
+
+#main-doc #encounter {
+  width: 500px;
+  position: relative;
+  left: 250px;
+}
+
+#main-doc #grayfox0 {
+  width: 600px;
+  position: relative;
+  left: 125px;
+}
+
+#main-doc #mantis0 {
+  width: 800px;
+  position: relative;
+  left: 125px;
+}
+
+#main-doc #hind-d {
+  width: 550px;
+  position: relative;
+  left: 175px;
+}
+
+#main-doc #Colosseo {
+  width: 450px;
+  position: relative;
+  left: 260px;
+}
+
+#main-doc #rex {
+  width: 800px;
+  position: relative;
+  left: 120px;
+}
+
+#main-doc #enclosure-0 {
+   width: 500px; 
+   position: relative;
+   left: 250px;
+}
+
+#main-doc #duel-0 {
+  width: 800px;
+  position: relative;
+  left: 125px;
+}
+
+#main-doc #escape-0 {
+  width: 600px;
+  position: relative;
+  left: 200px;
+}
+
+#main-doc #aftermath-0 {
+  width: 400px;
+  position: relative;
+  left: 325px;
+}
+
+#main-doc #rexx {
+  width: 500px;
+  position: relative;
+  left: 250px;
+}
+
+
+/*MEDIA QUERY*/
+
+@media (max-width: 800px) {
+  #avbar {
+     display: block;
+     position: fixed; 
+     z-index: 1;
+     background-color: #bfbfbf;
+     width: 0;
+     height: 100%;
+     transition: 0.5s; 
+     top: 0;
+     left: 0;
+     overflow-x: hidden;
+   }
+}
+
+@media (max-width: 800px) {
+  #navbar  #nav-close {
+     display: inline-block;
+     position: relative;
+     left: 185px;
+     bottom: 5px;
+     font-size: 1.1rem;
+     cursor: pointer;
+   }
+}
+
+
+@media (max-width: 800px) {
+  #navbar ul {
+    height: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  #navbar header {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media(max-width: 800px) {
+  #nav-open {
+    display: inline-block;
+    position: fixed;
+    z-index: 1;
+    left: 90%;
+    top: 1px;
+    cursor: pointer;
+  }
+}
+
+
+
+@media (max-width: 400px) {
+  #main-doc {
+    margin-left: -15px;
+    height: 50%;
+    line-height: 1.2rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .img-0  {
+    max-width: 100% !important;
+    position: relative !important;
+    left: 0 !important;
+  }
+}
+
