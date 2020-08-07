@@ -207,8 +207,7 @@ header {
 }
 
 
-@media only screen and (max-width: 815px) {
-  /* For mobile phones: */
+@media(max-width: 815px) {
   #navbar ul {
     border: 1px solid;
     height: 210px;
@@ -242,7 +241,7 @@ header {
 
 
 
-@media only screen and (max-width: 700px) {
+@media(max-width: 800px) {
   #main-doc {
     margin-left: -10px;
   }
@@ -257,7 +256,7 @@ header {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
   #bandana {
     display: flex;
     top: 300px;
@@ -266,7 +265,7 @@ header {
 
 
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
   img {
     display: flex;
     width: 300px !important;
@@ -274,11 +273,12 @@ header {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
   .img-0 {
     left: 25px !important;
     margin-bottom: 10px;
   }
 }
+
 
 
