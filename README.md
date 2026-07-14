@@ -1,6 +1,6 @@
 Documentation page for the challenge on https://www.freecodecamp.org
 
-This is part of my work in progress code portfolio.
+This is part of my work in progress coding portfolio.
 
 Check the page live in the following URL: 
 
